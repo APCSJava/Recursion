@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Recursion.iml" filepath="$PROJECT_DIR$/.idea/modules/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Factorial/Recursion.Overview-Factorial.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Fibonacci/Recursion.Overview-Fibonacci.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/FuelForFuel/Recursion.Overview-FuelForFuel.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Overview/Introduction/Recursion.Overview-Introduction.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.test.iml" />
+    </modules>
+  </component>
+</project>

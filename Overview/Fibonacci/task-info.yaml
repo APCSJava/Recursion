@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: src/Recursions.java
+  visible: true
+  placeholders:
+  - offset: 330
+    length: 180
+    placeholder_text: /* your code goes here */
+    dependency:
+      lesson: Overview
+      task: Factorial
+      file: src/Recursions.java
+      placeholder: 1
+      is_visible: false
+  - offset: 817
+    length: 193
+    placeholder_text: /* Your code goes here */
+- name: test/RecursionsFibonacciTest.java
+  visible: false
+solution_hidden: false

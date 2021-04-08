@@ -1,0 +1,28 @@
+type: edu
+files:
+- name: src/Recursions.java
+  visible: true
+  placeholders:
+  - offset: 330
+    length: 184
+    placeholder_text: /* your code goes here */
+    dependency:
+      lesson: Overview
+      task: Fibonacci
+      file: src/Recursions.java
+      placeholder: 1
+      is_visible: false
+  - offset: 821
+    length: 197
+    placeholder_text: /* Your code goes here */
+    dependency:
+      lesson: Overview
+      task: Fibonacci
+      file: src/Recursions.java
+      placeholder: 2
+      is_visible: false
+  - offset: 1256
+    length: 106
+    placeholder_text: // your code goes here
+- name: test/RecursionsFuelTest.java
+  visible: false

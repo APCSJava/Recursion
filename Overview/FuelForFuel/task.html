@@ -1,0 +1,53 @@
+<html>
+
+<h2>How much fuel does a rocket need?</h2>
+
+<p>Getting a rocket into orbit is no easy matter. The [rocket] science is explored
+    <a href="https://semiengineering.com/getting-to-orbit-and-the-rocket-equation/"> in this blog post </a>
+    which describes the conditions needed to raise the rocket's velocity to the point where it can
+    <a href="https://nationalpoetryday.co.uk/poem/high-flight/">"[slip] the surly bonds of earth" </a>
+    and establish an orbit.
+</p>
+<p>One way of thinking about the problem is the following:
+</p>
+<ul>
+    <li>The payload (the important part of the craft) has a mass, m</li>
+    <li>To accelerate mass m to the required velocity, some amount of fuel, x, is needed</li>
+    <li>However, launching with an additional amount of fuel x on board brings the total rocket mass to m + x which is
+        greater
+        than the original mass, m, used in the calculation
+    </li>
+    <li>To accelerate additional mass x, some additional amount of fuel, y, is needed. This brings the total rocket mass
+        to
+        m + x + y
+    </li>
+    <li>To accelerate additional mass y, even more fuel, z, is needed</li>
+    <li>... and so on</li>
+</ul>
+<p>Write a recursive solution to calculate the amount of fuel required to place into orbit a body
+    of the given mass. Assume that the amount of fuel necessary to accelerate a mass of m to the required
+    velocity is given by the equation f = m / 3 - 2. Any value of f < 0 should be set to zero.
+</p>
+<p>Example calculation:<br/>
+    <blockquote>
+    <code>Recursions.calculateFuel(1000);</code><br/>
+    // fuel required to lift the original payload of 1000<br/>
+    1000 / 3 - 2 = 333 - 2 = 331 <br/>
+    // fuel required to lift that additional 331 units of fuel</br>
+    331 / 3 - 2 = 110 - 2 = 108<br/>
+    // fuel required to lift that additional 108 units of fuel<br/>
+    108 / 3 - 2 = 36 - 2 = 34<br/>
+    // fuel required to lift that additional 34 units of fuel<br/>
+    34 / 3 - 2 = 11 - 2 = 9<br/>
+    // fuel required to lift that additional 9 units of fuel<br/>
+    9 / 3 - 2 = 3 - 2 = 1<br/>
+    // fuel required to lift that additional 1 unit of fuel<br/>
+    1 / 3 - 2 = 0 - 2 = -2 -> 0 <br/>
+    // no additional fuel needed so calculate the total<br/>
+    returns 483 // (331 + 108 + 34 + 9 + 1 + 0)
+    </blockquote>
+</p>
+<p>When you have written your solution, check it using the 'Check' button below.</p>
+<p>Once your method is working correctly, compare it against the provided solution by
+    using the "Peek Solution..." link.</p>
+</html>

@@ -1,0 +1,42 @@
+<html>
+
+<h2>Recursion</h2>
+
+<p>
+    The repeated application of a recursive procedure.
+</p>
+<img src="https://imgs.xkcd.com/comics/xkcde.png" alt="XKCD comic showing recursive spin up virtual environments in Docker containers"/>
+<p>
+    This <a href="https://en.wikipedia.org/wiki/Recursion_(computer_science)">Wikipedia</a> entry
+    has some good things to say about recursion.
+</p>
+<p>
+    <a href="https://www.freecodecamp.org/news/recursion-demystified-99a2105cb871/">Free Code Camp</a> takes a turn at
+    it.
+
+</p>
+<p>
+    And then there's even a <a href="https://www.getdigital.co.uk/Understanding-Recursion.html">t-shirt</a> having a go.
+</p>
+<p>
+    Recursion is a problem solving approach where, in order to solve a potentially really large problem, you solve a
+    slightly simpler version of the problem -- and a slightly simpler version of <i>that</i> problem, if need be --
+    until you reach a sufficiently simple version of the problem to which you know the answer.
+</p>
+<h3>Example: factorial</h3>
+<p>Assume someone asked you to determine the value of 12! (twelve factorial).</p>
+<p>You probably don't know the value of 12! off the top of your head <b><i>but</i></b> you know that it
+    must be equal to 12 multiplied by the value of 11! (eleven factorial).
+</p>
+<p>You probably don't have a clue what 11! equals, either, <b><i>but</i></b> you know for sure that
+    it would be 11 multiplied by the value of 10! (ten factorial).
+</p>
+... <i>process continues</i>
+<p>Eventually, you realize that in order to calculate the solution, you will need to determine the value of 2! and
+    you recognize that 2! is simply 2. This is what is known as a <b><i>base case</i></b> -- a version of the problem
+    that
+    is sufficiently simple that the answer is readily evident.</p>
+<p>Armed with a definitive value of 2! and knowing that 3! is simply 3 * 2!, you determine
+    that 3! = 6. Likewise, since 4! is 4 * 3!, then 4! must be 4 * 6 = 24.  Continuing in this manner, you recursively
+    work backwards from the base case to determine the value of 12! which was the original question.</p>
+</html>
