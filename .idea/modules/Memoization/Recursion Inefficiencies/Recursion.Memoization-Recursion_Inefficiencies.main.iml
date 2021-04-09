@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Memoization-Recursion_Inefficiencies:main" external.linked.project.path="$MODULE_DIR$/../../../../Memoization/Recursion Inefficiencies" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Recursion" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../../Memoization/Recursion Inefficiencies/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Memoization/Recursion Inefficiencies/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../Memoization/Recursion Inefficiencies/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Recursion.util.main" />
+  </component>
+</module>

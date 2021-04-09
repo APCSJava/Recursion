@@ -11,10 +11,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Overview/Factorial" />
-            <option value="$PROJECT_DIR$/Overview/Fibonacci" />
-            <option value="$PROJECT_DIR$/Overview/FuelForFuel" />
-            <option value="$PROJECT_DIR$/Overview/Introduction" />
+            <option value="$PROJECT_DIR$/Basics/Factorial" />
+            <option value="$PROJECT_DIR$/Basics/Fibonacci" />
+            <option value="$PROJECT_DIR$/Basics/FuelForFuel" />
+            <option value="$PROJECT_DIR$/Basics/Introduction" />
+            <option value="$PROJECT_DIR$/Memoization/Counting invocations" />
+            <option value="$PROJECT_DIR$/Memoization/Memoization" />
+            <option value="$PROJECT_DIR$/Memoization/Memoization (Alternate)" />
+            <option value="$PROJECT_DIR$/Memoization/Recursion Inefficiencies" />
+            <option value="$PROJECT_DIR$/Memoization/Return to Fibonacci" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

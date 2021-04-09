@@ -1,0 +1,24 @@
+<html>
+
+<h2>What's going on?</h2>
+
+<p>A solution to fib(10) involves calculating a solution to fib(9) and fib(8).
+    A solution to fib(9) requires a solution to fib(8) and fib(7), etc. If we don't
+    keep track of these calculations but produce them anew, then we are routinely
+    undertaking calculations that have already been performed.</p>
+<p>
+    A really good tool for visualizing this process is <a href="http://cs.joensuu.fi/jeliot/"> Jeliot</a>.
+    It is available as a *.jar file that will open up into a Java editor and runtime visualizer. It
+    is worth the download even if you don't use it for full time Java development but
+    occasionally might like a powerful visualization of the call stack.
+</p>
+<p>
+    Another way to trace this code is to drop a breakpoint into the main() method
+    and step your way into/over successive method calls. Try that and watch how the
+    stack grows while executing the code.
+</p>
+<h2>This example</h2>
+<p>This version of the code demonstrates how to use a static (class) variable
+to count the number of method invocations.
+</p>
+</html>

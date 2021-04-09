@@ -4,5 +4,7 @@ summary: |-
   Java course.
   Created: Apr 8, 2021, 10:22:02 AM.
 programming_language: Java
+solutions_hidden: true
 content:
-- Overview
+- Basics
+- Memoization

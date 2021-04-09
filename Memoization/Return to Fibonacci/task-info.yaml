@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: once
+  is_correct: false
+- text: twice
+  is_correct: false
+- text: about ten times
+  is_correct: false
+- text: about 20 times
+  is_correct: false
+- text: more than 175 times
+  is_correct: true
+message_correct: That's right!
+message_incorrect: Incorrect solution
+files:
+- name: src/Fibonacci.java
+  visible: true

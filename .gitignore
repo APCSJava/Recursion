@@ -1,6 +1,6 @@
 # Project exclude paths
 /.coursecreator/
 /.gradle/
-/Overview/Factorial/build/
-/Overview/Fibonacci/build/
-/Overview/FuelForFuel/build/
+/Basics/Factorial/build/
+/Basics/Fibonacci/build/
+/Basics/FuelForFuel/build/

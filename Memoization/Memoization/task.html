@@ -1,0 +1,25 @@
+<html>
+
+<h2>Memoization to the rescue</h2>
+
+<p>Memoization is a dynamic programming technique that keeps track of previously calculated
+    values that are partial solutions to a problem in order to avoid repeatedly
+    recalculating them.
+</p>
+<h2>Passing the memo data as a parameter</h2>
+<p>
+    In this example, we pass as an additional parameter an array of ints. Initially,
+    the elements in this array are set to -1. However, as values are discovered they are
+    inserted into the array at the appropriate index (ie. fibonacci(2)'s value is inserted at index 2).
+</p>
+<p>With memoization present, the contents of the array are checked before performing an
+    "expensive" recursive call -- if already known, the value is returned directly from the array.
+    If unknown, the value is calculated using recursion anyway but the result is then stored in the
+    array to avoid recalculation in the future.
+</p>
+<p>
+    Notice that the use of memoization here reduces the number of calls dramatically,
+    from 177 to 19. If the calculation being performed were non-trivial, this would represent
+    a significant savings in computation.
+</p>
+</html>
