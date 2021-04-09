@@ -1,0 +1,26 @@
+<html>
+
+<h2>Tail recursion</h2>
+
+<p>You may hear or read about tail recursion. Tail recursion occurs when the final statement in a method is a recursive
+    call.
+    All processing of data by the method has already completed by the time the recursive call is
+    made, so there is no need for the stack frame to maintain program state -- after all, it isn't going to process the
+    returned value. This allows tail recursive methods to be optimized.</p>
+<p>If a method is NOT tail recursive, it means that additional statements may be executed when the nested
+    recursive call returns and therefore all information on the stack frame must be retained in anticipation of
+    resuming execution.
+</p>
+<p>
+    Compare the outputs of the two methods shown.  Notice that one creates a recursive call <b><i>before</i></b>
+    processing <i>n</i> while the second method processes <i>n</i> and <b><i>afterwards</i></b> makes its recursive
+    call (ie. tail recursion).
+</p>
+<h2>What to take away</h2>
+<p>
+    Be aware that the placement of the recursive call can almost make it seem as if the data is being
+    processed in reverse.  With this awareness, trace recursive methods carefully to determine whether they
+    process data beginning with the initial parameter and proceeding down to the base case <b>or</b> recurse immediately
+    to the base case and process values in reverse order during the return trip up the call stack.
+</p>
+</html>

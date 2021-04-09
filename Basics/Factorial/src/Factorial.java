@@ -1,4 +1,4 @@
-public class Recursions {
+public class Factorial {
 
     /**
      * Determines n! (n-factorial) using a recursive solution.
