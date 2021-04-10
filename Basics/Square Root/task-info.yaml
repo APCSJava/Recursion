@@ -2,5 +2,10 @@ type: edu
 files:
 - name: src/SquareRoot.java
   visible: true
+  placeholders:
+  - offset: 134
+    length: 134
+    placeholder_text: /* your code goes here */
 - name: test/SquareRootTest.java
   visible: false
+solution_hidden: false

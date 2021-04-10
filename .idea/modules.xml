@@ -39,9 +39,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Recursion.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Recursion.util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/Square Root/Square Root.Recursion.Basics-Square_Root.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics/TailRecursion/TailRecursion.Recursion.Basics-TailRecursion.test~1.iml" />
     </modules>
   </component>
 </project>
