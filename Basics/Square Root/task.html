@@ -1,0 +1,57 @@
+<html>
+
+<h2>Using recursion to calculate a square root</h2>
+
+<p>Write a recursive method that calculates the square root of a positive real
+    number.
+</p>
+<p>
+    Approach:
+</p>
+<ul>
+    <li>
+        Use two parameters, the original number and an initial guess, both
+        positive real numbers.
+    </li>
+    <li>
+        Divide the original by the guessed value and compare the quotient to the guess parameter --
+        if they match, then the guess is actually the square root and you should return the guess.
+    </li>
+    <li>
+        If they do not match, use the quotient to refine the guessed value. A sufficient refinement
+        is to use the average of the previous guess and the quotient.
+    </li>
+    <li>
+        Recursively invoke the method using successively refined guesses until <i>guess</i>
+        and the quotient <i>original/guess</i> converge.
+    </li>
+</ul>
+<p>Sample:
+</p>
+<ul>
+    <li>
+        <code>root(9.0, 4.5)</code>
+    </li>
+    <li>
+        9.0 / 4.5 is 2.0 and 2.0 != 4.5 --> refine the guess
+    </li>
+    <li>
+        refined guess is the average of 2.0 and 4.5, 3.25
+    </li>
+    <li>
+        <code>root(9.0, 3.25)</code>
+    </li>
+    <li>
+        9.0 / 3.25 is 2.7692 and 2.7692 != 3.25 --> refine the guess
+    </li>
+    <li>
+        refined guess is the average of 3.25 and 2.7692, 3.0096
+    </li>
+    <li>
+        <code>root(9.0, 3.0096)</code>
+    </li>
+    <li>
+        ... etcetera
+    </li>
+</ul>
+</html>
