@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 134
-    length: 134
+    length: 196
     placeholder_text: /* your code goes here */
 - name: test/SquareRootTest.java
   visible: false

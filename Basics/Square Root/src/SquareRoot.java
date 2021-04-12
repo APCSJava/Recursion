@@ -4,7 +4,10 @@ public class SquareRoot {
     public static double root(double value, double guess) {
         double quotient = value / guess;
         if (quotient == guess) return guess;
-        else return root(value, (quotient + guess)/2.0);
+        else {
+            double refined = (quotient + guess)/2.0;
+            return root(value, refined);
+        }
     }
 
 }
