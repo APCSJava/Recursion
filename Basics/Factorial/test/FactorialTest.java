@@ -10,7 +10,7 @@ public class FactorialTest {
   @Test
   public void testOneFactorial() {
     String s = "One factorial should equal 1";
-    Assert.assertEquals(s, 1, Factorial.factorial(0));
+    Assert.assertEquals(s, 1, Factorial.factorial(1));
   }
   @Test
   public void testTwoFactorial() {
